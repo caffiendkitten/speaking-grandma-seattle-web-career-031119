@@ -4,7 +4,7 @@ def speak_to_grandma(say)
   elsif (say != say.downcase)
     return  "NO, NOT SINCE 1938!"
   elsif (say != say.upcase)
-    return "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
   end
 
 # Whatever you say to grandma, she should respond with
